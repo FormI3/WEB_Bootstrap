@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 02</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="container-fluid mb-3">
+        <div class="row p-2">
+            <div class="col">
+                <div class="display-custom font-weight-bold">Titre du site</div>
+            </div>
+            <div class="col-5 col-md-3 text-right">
+                <div class="btn-group">
+                    <button class="btn btn-success">Login</button>
+                    <button class="btn btn-info">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Article</h2>
+        <section class="row">
+            <article class="col-md-4 col-12">
+                <h4>Zone 1</h4>
+                <p>Ratione recusandae modi itaque odit aut vero, iste voluptatum voluptatem, ullam laboriosam quis
+                    blanditiis perferendis animi quasi neque similique minima non. Itaque.</p>
+            </article>
+            <article class="col-md-4 col-12">
+                <h4>Zone 2</h4>
+                <img class="img-fluid rounded mb-3" src="./images/chat-manon.png" alt="">
+            </article>
+            <article class="col-md-4 col-12">
+                <h4>Zone 3</h4>
+                <p>Beatae temporibus dicta, tenetur voluptate obcaecati aut laudantium aliquam error quod, ducimus in
+                    cupiditate minus aspernatur quasi omnis similique at saepe aliquid!</p>
+            </article>
+            <article class="col-md-8 col-12">
+                <h4>Zone 4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quidem minima eveniet neque, iure
+                    necessitatibus nostrum ex excepturi libero sed nihil! Error ea enim dolorem nobis debitis aspernatur
+                    soluta molestiae?
+                    Totam et architecto saepe illo eos culpa explicabo ab blanditiis voluptatem dignissimos fuga
+                    voluptas beatae dicta quod, ad, vero sed, veniam numquam?</p>
+                <p>Aperiam blanditiis ipsa alias, ea repellendus non eaque. Porro reprehenderit ad quasi illum veniam
+                    officiis suscipit ullam, doloremque dolorem laborum, est et?</p>
+            </article>
+            <article class="col-md-4 col-12">
+                <h4>Zone 5</h4>
+                <p>Ipsam quibusdam officiis molestias id repellat!</p>
+                <ul>
+                    <li>Riri Duck</li>
+                    <li>Zaza Vanderquack</li>
+                    <li>Della Duck</li>
+                    <li>Balthazar Picsou</li>
+                    <li>Donald Duck</li>
+                </ul>
+            </article>
+        </section>
+
+        <h2>Formulaire</h2>
+        <form class="MyForm">
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="firstname">Prenom *</label>
+                    <input class="form-control" type="text" id="firstname" name="firstname" 
+                        required placeholder="Jane">
+                </div>
+                <div class="form-group col-6">
+                    <label for="lastname">Nom *</label>
+                    <input class="form-control" type="text" id="lastname" name="lastname" 
+                        required placeholder="Jones">
+                </div>
+                <div class="form-group col-6">
+                    <label for="pseudo">Pseudo</label>
+                    <input class="form-control" type="text" id="pseudo" name="pseudo"
+                        placeholder="Jiji">
+                </div>
+                <div class="form-group col-6">
+                    <label for="email">Email *</label>
+                    <input class="form-control" type="email" id="email" name="email" 
+                        required placeholder="jiji.chartreuse@interface3.be">
+                </div>
+                <div class="form-group col-12">
+                    <label for="comment">Commentaire</label>
+                    <textarea class="form-control" id="comment" name="comment"
+                        placeholder="Ceci doit contenir votre commentaire. Merci ♥"></textarea>
+                </div>
+                <div class="col-6">
+                    <button type="submit" class="btn btn-info w-100">Envoyer</button>
+                </div>
+                <div class="col-6">
+                    <button type="reset" class="btn btn-danger w-100">Effacer</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="mt-5 text-center p-2">Exo 02 - ♥ chartreuse et les chats</footer>
+</body>
+
+</html>

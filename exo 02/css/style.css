@@ -1,0 +1,13 @@
+.display-custom  {
+    font-size: 1.7rem;
+    color: hotpink;
+}
+
+header {
+    background-color: rgba(157, 255, 0, 0.342);
+    border-bottom: hotpink 1px solid;
+}
+
+.MyForm textarea {
+    resize: none;
+}
