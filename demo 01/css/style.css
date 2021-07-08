@@ -1,0 +1,23 @@
+.elem1, .elem2, .elem3, .elem4, .elem5 {
+    border: 1px purple solid;
+}
+
+.elem1 {
+    background-color: chartreuse;
+}
+
+.elem2 {
+    background-color: hotpink;
+}
+
+.elem3 {
+    background-color: goldenrod;
+}
+
+.elem4 {
+    background-color: crimson;
+}
+
+.elem5 {
+    background-color: tomato;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Style automatique sur les balises -->
+        <!-- Celui-ci est aussi accessible via une classe -->
+        <h1>Titre principal</h1>
+        <div class="h1">Titre principal</div>
+        
+        <!-- Niveau de display 1 → 4 -->
+        <h1 class="display-1 text-center">Hello</h1>
+
+        <!-- Balise pour les citations -->
+        <blockquote class="blockquote">
+            <p class="french-quote mb-0">Mangez des pommes</p>
+            <footer class="blockquote-footer">
+                <cite>Chirac</cite> dans les guignols
+            </footer>
+        </blockquote>
+
+        <!-- Liste sans les pastilles -->
+        <ul class="list-unstyled">
+            <li>Zaza</li>
+            <li>Riri</li>
+            <li>Della</li>
+        </ul>
+
+        <!-- Liste formatté sur une ligne -->
+        <ul class="list-inline">
+            <li class="list-inline-item">Charlotte</li>
+            <li class="list-inline-item">Manon</li>
+            <li class="list-inline-item">Iman</li>
+        </ul>
+
+        <!-- Modification de la casse -->
+        <h3>Modification de la casse</h3>
+        <p class="text-uppercase">Hello</p>
+        <p class="text-lowercase">World</p>
+        <p class="text-capitalize">formation de WEB !</p>
+
+        <!-- Gras et italic -->
+        <h3>Gras et italic</h3>
+        <p class="font-weight-bold">Un texte en gras</p>
+        <p class="font-weight-normal">Un texte</p>
+        <p class="font-weight-light">Un texte en "fin"</p>
+        <p class="font-italic">Un texte en italique</p>
+        <p class="font-weight-bold font-italic">Hello World</p>
+
+        <!-- Les couleurs -->
+        <h3>Les couleurs</h3>
+        <p class="text-primary">Primaire</p>
+        <p class="text-secondary">Secondaire</p>
+        
+        <p class="text-success">Success</p>
+        <p class="text-warning">Attention</p>
+        <p class="text-danger">Erreur (Danger)</p>
+        
+        <p class="bg-primary">Hello avec un background "primaire"</p>
+        
+        <p class="text-light bg-dark">Hello </p>
+        <p class="text-dark bg-light">Hello </p>
+
+        <a href="https://getbootstrap.com/docs/4.6/utilities/colors/" 
+            class="text-primary">
+            Lien de documentation sur les couleurs de bootstrap
+        </a>
+
+        <!-- Les boutons -->
+        <h3>Les boutons</h3>
+        <div class="row mb-3">
+            <div class="col-4  p-0">
+                <input class="btn btn-primary" type="button" value="Btn 1">
+            </div>
+            <div class= "col-4 p-0">
+                <button class="btn btn-info">Btn 2</button>
+            </div>
+            <div class="w-100 mb-2"></div> <!-- Saut de ligne dans la grille-->
+            <div class="col-6  p-0">
+                <a href="https://www.interface3.be/"
+                    class="btn btn-success">Interface 3</a>
+            </div>
+            <div class="col-6  p-0">
+                <!-- Faux bouton -> A utiliser avec du JS ;) -->
+                <div class="btn btn-danger">Test</div>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <button class="btn btn-info btn-sm">Petit</button>
+            <button class="btn btn-primary">Normal</button>
+            <button class="btn btn-secondary btn-lg">Grand</button>
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-outline-success">Outline 1</button>
+            <button class="btn btn-outline-info">Outline 2</button>
+            <button class="btn btn-outline-warning">Outline 3</button>
+        </div>
+
+        <h5>Checkbox</h5>
+        <!-- data-toggle : Attribut HTML qui sera utiliser par
+             le javascript de bootstrap. Pour pouvoir interagir
+             avec l'evenement. -->
+        <div class="mb-3 btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-info">
+                <input type="checkbox"> 
+                Check
+            </label>
+        </div> 
+
+        <h5>Radio button</h5>
+        <div class="mb-3 btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-warning">
+                <input type="radio" name="demo">
+                Choix 1
+            </label>
+            <label class="btn btn-warning">
+                <input type="radio" name="demo">
+                Choix 2
+            </label>
+            <label class="btn btn-warning">
+                <input type="radio" name="demo">
+                Choix 3
+            </label>
+        </div> 
+    </div>
+</body>
+</html>

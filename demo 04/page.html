@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Demo formulaire</h1>
+        <h3>Base</h3>
+        <form>
+            <div class="form-group">
+                <label for="firstname">Prenom</label>
+                <input class="form-control" type="text" id="firstname">
+            </div>  
+            <div class="form-group">
+                <label for="lastname">Nom</label>
+                <input class="form-control" type="text" id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input class="form-control" type="email" id="email">
+            </div>       
+            <button type="submit" class="btn btn-success">Envoyer</button>     
+        </form>
+
+        <h3 class="mt-5">L'utilisation des grilles</h3>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="firstname">Prenom</label>
+                    <input class="form-control" type="text" id="firstname">
+                </div>  
+                <div class="form-group col-6">
+                    <label for="lastname">Nom</label>
+                    <input class="form-control" type="text" id="lastname">
+                </div>
+                <div class="form-group col-12">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" id="email">
+                </div>       
+            </div>
+            <button type="submit" class="btn btn-success col-12">Envoyer</button>     
+        </form>
+
+        <h3 class="mt-5">...</h3>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-6">
+                    <label for="firstname">Prenom</label>
+                    <input class="form-control" type="text" id="firstname">
+                </div>  
+                <div class="form-group col-6">
+                    <label for="lastname">Nom</label>
+                    <input class="form-control" type="text" id="lastname">
+                </div>
+                <div class="form-group col-12">
+                    <label for="email">Email</label>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@</div>
+                        </div>
+
+                        <input class="form-control" type="email" id="email">
+                    </div>
+
+                </div>       
+            </div>
+            <button type="submit" class="btn btn-success col-12">Envoyer</button>     
+        </form>
+    </div>
+</body>
+</html>

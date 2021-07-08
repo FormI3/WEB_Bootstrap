@@ -1,0 +1,13 @@
+.french-quote::before {
+   content: '«'; /* alt+174 */
+   margin-right: 0.75rem;
+}
+.french-quote::after {
+    content: '\00BB';  /* https://unicode-table.com */
+    margin-left: 0.75rem;
+}
+
+.french-quote::before, .french-quote::after {
+    font-size: 40px;
+    color: deeppink;
+}
